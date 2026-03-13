@@ -55,7 +55,7 @@ except ImportError:
 # ══════════════════════════════════════════════════
 # ⚙️  CONFIG  —  .env မှ ယူသည် (fallback: hardcode)
 # ══════════════════════════════════════════════════
-BOT_TOKEN = os.getenv("8209827767:AAETawNDdx4Ut5-zqO_3lgJ2W3IsUFYsCIw", "")  # Set in Railway environment variables
+BOT_TOKEN = os.getenv("", "")  # Set in Railway environment variables
 ADMIN_IDS = [int(x) for x in os.getenv("ADMIN_IDS", "").split(",") if x.strip().isdigit()]
 
 
