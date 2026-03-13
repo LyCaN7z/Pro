@@ -1,4 +1,4 @@
-python-telegram-bot[webhooks,socks]==21.3
+python-telegram-bot[webhooks,socks]>=20.7,<21.0
 requests[socks]
 aiohttp
 aiofiles
